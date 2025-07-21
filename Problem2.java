@@ -1,11 +1,13 @@
 
-// Time Complexity :
-// Space Complexity :
-// Did this code successfully run on Leetcode :
-// Any problem you faced while coding this :
+// Time Complexity : O(n!)
+// Space Complexity : O(n)
+// Did this code successfully run on Leetcode : yes
+// Any problem you faced while coding this : no
 
 
 // Your code here along with comments explaining your approach
+//used backtracking to find all possible permutaions but pruned(constraint‑based) it to stop
+//whenever invalid permuatation is detected early.
 class Solution {
     int result;
 
